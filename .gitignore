@@ -1,0 +1,15 @@
+# Python environment and cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Docker/Grafana local data stores (Crucial to ignore)
+.docker/
+grafana-storage/
+prometheus_data/
+
+# Environment files and sensitive tokens
+.env
+*.log
